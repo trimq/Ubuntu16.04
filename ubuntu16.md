@@ -62,18 +62,18 @@ vi /etc/network/interfaces
 ```
 <img src="http://i.imgur.com/2KANIW6.png">
 
- <a name="ssh"></a>
+<a name="ssh"></a>
  ####3.Cài đặt ssh để sử dụng putty:
  Sử dụng lệnh để cài đặt:
  ```sh
  apt-get install openssh-server -y
  ```
  
- <a name="putty"></a>
+<a name="putty"></a>
 #####3.1.Giới thiệu về công cụ putty:
  Putty là một chương trình truy cập ssh thông dụng dành cho người dùng, Sau khi đăng nhập vào hệ thống, có thể dùng các câu lệnh của Linux, trong chế độ CLI (command line) để quản trị hệ thống.
  
- <a name="ssh"></a>
+<a name="ssh"></a>
 #####3.2.SSH là gì:
  - Là một giao thức mạng dùng để thiết lập kết nối mạng một cách bảo mật. Hoạt động ở lớp trên mô hình TCP/IP.
  - Các công cụ SSH (như là OpenSSH,…) cung cấp cho người dùng cách thức để thiết lập kết nối mạng được mã hoá để tạo một kênh kết nối riêng tư.
@@ -82,7 +82,7 @@ vi /etc/network/interfaces
  <li>Định danh host – xác định định danh của hệ thống tham gia phiên làm việc SSH.</li>
  <li>Mã hoá – thiết lập kênh làm việc mã hoá.</li>
  <li>Chứng thực – xác thực người sử dụng có quyền đăng nhập hệ thống.(user|pass)</li>
- <a name="ketnoi"></a>
+<a name="ketnoi"></a>
 #####3.3.Sử dụng putty để kết nối vào hệ thống:
  - Kết nối vào máy chủ thông qua putty, ta cần nhập địa chỉ IP của máy và đăng nhập tài khoản người dùng.
  <img src="http://i.imgur.com/X9OoptF.png">

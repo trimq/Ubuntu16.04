@@ -70,11 +70,11 @@ vi /etc/network/interfaces
  ```
  
  <a name="putty"></a>
- #####3.1.Giới thiệu về công cụ putty:
+#####3.1.Giới thiệu về công cụ putty:
  Putty là một chương trình truy cập ssh thông dụng dành cho người dùng, Sau khi đăng nhập vào hệ thống, có thể dùng các câu lệnh của Linux, trong chế độ CLI (command line) để quản trị hệ thống.
  
  <a name="ssh"></a>
- #####3.2.SSH là gì:
+#####3.2.SSH là gì:
  - Là một giao thức mạng dùng để thiết lập kết nối mạng một cách bảo mật. Hoạt động ở lớp trên mô hình TCP/IP.
  - Các công cụ SSH (như là OpenSSH,…) cung cấp cho người dùng cách thức để thiết lập kết nối mạng được mã hoá để tạo một kênh kết nối riêng tư.
  - SSH có cơ chế mã hóa dữ liệu đủ mạnh nhằm bảo mật dữ liệu trên đường truyền.
@@ -83,7 +83,7 @@ vi /etc/network/interfaces
  <li>Mã hoá – thiết lập kênh làm việc mã hoá.</li>
  <li>Chứng thực – xác thực người sử dụng có quyền đăng nhập hệ thống.(user|pass)</li>
  <a name="ketnoi"></a>
- #####3.3.Sử dụng putty để kết nối vào hệ thống:
+#####3.3.Sử dụng putty để kết nối vào hệ thống:
  - Kết nối vào máy chủ thông qua putty, ta cần nhập địa chỉ IP của máy và đăng nhập tài khoản người dùng.
  <img src="http://i.imgur.com/X9OoptF.png">
  - Nếu đăng nhập bằng tài khoản root trên Ubuntu sẽ không đăng nhập được mà ta phải sửa file cấu hình `sshd_config` như sau:

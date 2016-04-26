@@ -63,7 +63,7 @@ vi /etc/network/interfaces
 <img src="http://i.imgur.com/2KANIW6.png">
 
 <a name="ssh"></a>
- ####3.Cài đặt ssh để sử dụng putty:
+####3.Cài đặt ssh để sử dụng putty:
  Sử dụng lệnh để cài đặt:
  ```sh
  apt-get install openssh-server -y
@@ -82,6 +82,7 @@ vi /etc/network/interfaces
  <li>Định danh host – xác định định danh của hệ thống tham gia phiên làm việc SSH.</li>
  <li>Mã hoá – thiết lập kênh làm việc mã hoá.</li>
  <li>Chứng thực – xác thực người sử dụng có quyền đăng nhập hệ thống.(user|pass)</li>
+
 <a name="ketnoi"></a>
 #####3.3.Sử dụng putty để kết nối vào hệ thống:
  - Kết nối vào máy chủ thông qua putty, ta cần nhập địa chỉ IP của máy và đăng nhập tài khoản người dùng.

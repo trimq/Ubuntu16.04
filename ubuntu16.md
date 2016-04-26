@@ -78,10 +78,12 @@ vi /etc/network/interfaces
  - Là một giao thức mạng dùng để thiết lập kết nối mạng một cách bảo mật. Hoạt động ở lớp trên mô hình TCP/IP.
  - Các công cụ SSH (như là OpenSSH,…) cung cấp cho người dùng cách thức để thiết lập kết nối mạng được mã hoá để tạo một kênh kết nối riêng tư.
  - SSH có cơ chế mã hóa dữ liệu đủ mạnh nhằm bảo mật dữ liệu trên đường truyền.
- - Cách thức hoạt đông:
+ - Cách thức hoạt động:
+ <ul>
  <li>Định danh host – xác định định danh của hệ thống tham gia phiên làm việc SSH.</li>
  <li>Mã hoá – thiết lập kênh làm việc mã hoá.</li>
  <li>Chứng thực – xác thực người sử dụng có quyền đăng nhập hệ thống.(user|pass)</li>
+</ul>
 
 <a name="ketnoi"></a>
 #####3.3.Sử dụng putty để kết nối vào hệ thống:
